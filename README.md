@@ -25,3 +25,16 @@ Time and increment are set through a browser via the ESP32 Access Point.
 4. Press either button to start.
 ## Wiring Diagram
 ![Wiring Diagram](wiring.png)
+### Setup
+#### **1. Clone the Repository**
+```bash
+git clone https://github.com/hszewczyk/ESP32-Chess-Clock.git
+cd <ESP32-Chess-Clock>
+```
+#### **2. Open the Project in Arduino IDE**
+1. Launch **Arduino IDE**
+2. Open `I2C-Address/I2C-Address.ino` and run it
+3. Input address of the I2C and Access Point credentials to `Chess-Clock/Chess-Clock.ino` file
+4. Upload `Chess-Clock/Chess-Clock.ino` to ESP32 board
+#### **3. Required External Libraries**
+- [**LiquidCrystal_I2C**](https://github.com/johnrickman/LiquidCrystal_I2C)

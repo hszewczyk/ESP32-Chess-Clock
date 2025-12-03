@@ -34,7 +34,7 @@ int timeP2 = 0;
 
 unsigned long lastTickMs = 0;
 
-LiquidCrystal_I2C lcd(0x27, LCD_COLUMNS, LCD_ROWS);
+LiquidCrystal_I2C lcd(0x27, LCD_COLUMNS, LCD_ROWS); // Change address of the I2C (0x27 byt default)
 WebServer server(80);
 
 /*
